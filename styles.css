@@ -9,7 +9,7 @@ input[type="file"] {
 
 /* CSS for disclaimer font size */
 #disclaimer {
-    font-size: larger; /* Adjust as needed */
+    font-size: larger !important; /* Adjust as needed */
 }
 
 /* Hide the original file input */
@@ -23,12 +23,3 @@ input[type="file"] {
     font-size: larger; /* Adjust as needed */
     cursor: pointer;
 }
-
-/* Media query for smaller screens if needed
-@media only screen and (max-width: 768px) {
-    .file-input-container button {
-        padding: 15px 25px;
-        font-size: larger;
-    }
-}
- */
