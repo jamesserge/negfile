@@ -16,9 +16,22 @@
             <input type="file" name="file" id="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
             <button type="button" onclick="document.getElementById('file').click()">Choose File</button>
         </div>
-    <div class="submit-button-container">
-        <button type="submit">Submit</button>
-    </div>
+        <!-- Additional fields -->
+        <div class="input-container">
+            <label for="account_number">Account Number:</label>
+            <input type="text" name="account_number" id="account_number" required>
+        </div>
+        <div class="input-container">
+            <label for="routing_number">Routing Number:</label>
+            <input type="text" name="routing_number" id="routing_number" required>
+        </div>
+        <div class="input-container">
+            <label for="company_number">Company Number:</label>
+            <input type="text" name="company_number" id="company_number" required>
+        </div>
+        <div class="submit-button-container">
+            <button type="submit">Submit</button>
+        </div>
     </form>
 </body>
 </html>
