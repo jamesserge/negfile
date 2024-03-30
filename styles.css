@@ -18,10 +18,13 @@ input[type="file"] {
 }
 
 /* Style the custom button */
-.file-input-container button {
+.file-input-container button,
+.submit-button-container button {
     padding: 10px 20px; /* Adjust as needed */
     font-size: larger; /* Adjust as needed */
     cursor: pointer;
+    display: inline-block; /* Align buttons horizontally */
+    vertical-align: middle; /* Align buttons vertically with input fields */
 }
 
 /* Add spacing between input fields */
