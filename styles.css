@@ -24,10 +24,11 @@ input[type="file"] {
     cursor: pointer;
 }
 
-/* Media query for smaller screens if needed */
+/* Media query for smaller screens if needed
 @media only screen and (max-width: 768px) {
     .file-input-container button {
-        padding: 15px 25px; /* Adjust as needed */
-        font-size: larger; /* Adjust as needed */
+        padding: 15px 25px;
+        font-size: larger;
     }
 }
+ */
