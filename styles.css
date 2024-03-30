@@ -1,5 +1,22 @@
 /* styles.css */
 
+/* Container styles */
+.container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding around the content */
+}
+
+/* Add background color */
+body {
+    background-color: #f8f8f8; /* Adjust as needed */
+}
+
+/* Add spacing between sections */
+.section {
+    margin-bottom: 40px; /* Add margin between sections */
+}
+
 /* CSS for button size */
 button[type="submit"],
 input[type="file"] {
