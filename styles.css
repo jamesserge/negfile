@@ -6,3 +6,8 @@ input[type="file"] {
     padding: 10px 20px; /* Adjust as needed */
     font-size: larger; /* Adjust as needed */
 }
+
+/* CSS for disclaimer font size */
+#disclaimer {
+    font-size: larger; /* Adjust as needed */
+}
