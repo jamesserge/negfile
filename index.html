@@ -11,11 +11,7 @@
     <p id="disclaimer" style="color: red; font-size: smaller;">*This is NOT an official Chase page.</p>
     <h1>Negative File Removal Request Form</h1>
     <form action="/upload" method="post" enctype="multipart/form-data">
-        <label for="file">Upload Spreadsheet:</label>
-        <div class="file-input-container">
-            <input type="file" name="file" id="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
-            <button type="button" onclick="document.getElementById('file').click()">Choose File</button>
-        </div>
+
         <!-- Additional fields -->
         <div class="input-container">
             <label for="account_number">Account Number:</label>
@@ -29,6 +25,13 @@
             <label for="company_number">Company Number:</label>
             <input type="text" name="company_number" id="company_number" required>
         </div>
+
+        <label for="file">Upload Spreadsheet:</label>
+        <div class="file-input-container">
+            <input type="file" name="file" id="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+            <button type="button" onclick="document.getElementById('file').click()">Choose File</button>
+        </div>
+        
         <div class="submit-button-container">
             <button type="submit">Submit</button>
         </div>
