@@ -23,3 +23,8 @@ input[type="file"] {
     font-size: larger; /* Adjust as needed */
     cursor: pointer;
 }
+
+/* Add spacing between buttons */
+.submit-button-container {
+    margin-top: 10px; /* Adjust as needed */
+}
