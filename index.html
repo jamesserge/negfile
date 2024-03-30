@@ -7,34 +7,38 @@
     <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
-    <img src="image.png" alt="Image" style="width: 25%; max-width: 25%;" />
-    <p id="disclaimer" style="color: red; font-size: smaller;">*This is NOT an official Chase page.</p>
-    <h1>Negative File Removal Request Form</h1>
-    <form action="/upload" method="post" enctype="multipart/form-data">
-
-        <!-- Additional fields -->
-        <div class="input-container">
-            <label for="account_number">Account Number:</label>
-            <input type="text" name="account_number" id="account_number" required>
-        </div>
-        <div class="input-container">
-            <label for="routing_number">Routing Number:</label>
-            <input type="text" name="routing_number" id="routing_number" required>
-        </div>
-        <div class="input-container">
-            <label for="company_number">Company ID:</label>
-            <input type="text" name="company_number" id="company_number" required>
-        </div>
-
-        <label for="file">OR upload spreadsheet:</label>
-        <div class="file-input-container">
-            <input type="file" name="file" id="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
-            <button type="button" onclick="document.getElementById('file').click()">Choose File</button>
-        </div>
+    <div class="container">
+        <img src="image.png" alt="Image" style="width: 25%; max-width: 25%;" />
+        <p id="disclaimer" style="color: red; font-size: smaller;">*This is NOT an official Chase page.</p>
+        <div class="section">
+            <h1>Negative File Removal Request Form</h1>
+            <form action="/upload" method="post" enctype="multipart/form-data">
         
-        <div class="submit-button-container">
-            <button type="submit">Submit</button>
+                <!-- Additional fields -->
+                <div class="input-container">
+                    <label for="account_number">Account Number:</label>
+                    <input type="text" name="account_number" id="account_number" required>
+                </div>
+                <div class="input-container">
+                    <label for="routing_number">Routing Number:</label>
+                    <input type="text" name="routing_number" id="routing_number" required>
+                </div>
+                <div class="input-container">
+                    <label for="company_number">Company ID:</label>
+                    <input type="text" name="company_number" id="company_number" required>
+                </div>
+        
+                <label for="file">OR upload spreadsheet:</label>
+                <div class="file-input-container">
+                    <input type="file" name="file" id="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+                    <button type="button" onclick="document.getElementById('file').click()">Choose File</button>
+                </div>
+                
+                <div class="submit-button-container">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
         </div>
-    </form>
+    </div>
 </body>
 </html>
