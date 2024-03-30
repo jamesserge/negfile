@@ -5,15 +5,23 @@
     max-width: 800px; /* Adjust as needed */
     margin: 0 auto; /* Center the container */
     padding: 20px; /* Add padding around the content */
+    background-color: #ffffff; /* White */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
 }
 
-/* Add background color */
+/* Set body background color */
 body {
-    background-color: #f8f8f8; /* Adjust as needed */
+    background-color: #f0f0f0; /* Light gray */
 }
 
 /* Add spacing between sections */
 .section {
+    background-color: #ffffff; /* White */
+    padding: 20px; /* Add padding to sections */
+    margin-bottom: 20px; /* Add margin between sections */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
     margin-bottom: 40px; /* Add margin between sections */
 }
 
