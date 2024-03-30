@@ -12,7 +12,10 @@
     <h1>Negative File Removal Request Form</h1>
     <form action="/upload" method="post" enctype="multipart/form-data">
         <label for="file">Upload Spreadsheet:</label>
-        <input type="file" name="file" id="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+        <div class="file-input-container">
+            <input type="file" name="file" id="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
+            <button type="button" onclick="document.getElementById('file').click()">Choose File</button>
+        </div>
         <button type="submit">Submit</button>
     </form>
 </body>
