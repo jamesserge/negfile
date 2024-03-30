@@ -33,3 +33,11 @@ input[type="file"] {
 .submit-button-container {
     margin-top: 10px; /* Adjust as needed */
 }
+
+/* Specify fixed width for labels */
+.input-container label {
+    display: inline-block;
+    width: 150px; /* Adjust as needed */
+    text-align: right;
+    margin-right: 20px; /* Adjust as needed */
+}
